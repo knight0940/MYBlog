@@ -8,12 +8,12 @@ subtitle: 'evilgenius的博客'
 description: '马国在读大学生 软件工程专业'
 keywords:
 author: evilgenius
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.evilgeniusss.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
