@@ -38,11 +38,11 @@ tags: web
 
 完成以后如下所示
 
-![1](基于netlify的个人博客搭建方法.assets/1.png)
+![a](https://github.com/knight0940/MYBlog/blob/main/source/_posts/%E5%9F%BA%E4%BA%8Enetlify%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95.assets/1.png)
 
 ​            之后我们就可以设置GitHub的托管服务了，登入你的GitHub账号，然后创建本地仓库，点击code，记录下你的HTTP地址。
 
-![5](基于netlify的个人博客搭建方法.assets/5.png)
+![5](基于netlify的个人博客搭建方法.assets/5.png
 
 然后输入下面这行代码
             `cd "本地博客位置"`
@@ -57,7 +57,7 @@ tags: web
 
 ​            我们需要用到[Netlify](https://www.netlify.com/)，如果登不上就用一下梯子根据指引建立网站，连接到GitHub，选择你刚创建的仓库，在**Build command**这一栏改成**npm run netlify**其他可以默认。
 
-![2](基于netlify的个人博客搭建方法.assets/2.png)
+![b]([MYBlog/source/_posts/基于netlify的个人博客搭建方法.assets/2.png at main · knight0940/MYBlog](https://github.com/knight0940/MYBlog/blob/main/source/_posts/基于netlify的个人博客搭建方法.assets/2.png))
 
 然后我们可以得到我们的网站了，接下来我们需要解决域名和CDN问题
 
