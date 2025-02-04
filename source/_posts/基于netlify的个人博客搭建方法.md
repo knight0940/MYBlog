@@ -2,6 +2,7 @@
 title: 基于netlify的个人博客搭建方法
 date: 2025-02-02 21:58:15
 tags: web
+
 ---
 引言：博客是一项用于记录学习心得，生活趣事，吐槽奇葩现象的工具，它对于学习计算机的同学而言，更是有着十分重要的意义。
 -----------------------------------------------------------------------------------
@@ -38,11 +39,11 @@ tags: web
 
 完成以后如下所示
 
-![a](https://github.com/knight0940/MYBlog/blob/main/source/_posts/%E5%9F%BA%E4%BA%8Enetlify%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E6%B3%95.assets/1.png)
+![1](.assets/1.png)
 
 ​            之后我们就可以设置GitHub的托管服务了，登入你的GitHub账号，然后创建本地仓库，点击code，记录下你的HTTP地址。
 
-![5](基于netlify的个人博客搭建方法.assets/5.png
+![5](.assets/5.png
 
 然后输入下面这行代码
             `cd "本地博客位置"`
@@ -57,7 +58,7 @@ tags: web
 
 ​            我们需要用到[Netlify](https://www.netlify.com/)，如果登不上就用一下梯子根据指引建立网站，连接到GitHub，选择你刚创建的仓库，在**Build command**这一栏改成**npm run netlify**其他可以默认。
 
-![b]([MYBlog/source/_posts/基于netlify的个人博客搭建方法.assets/2.png at main · knight0940/MYBlog](https://github.com/knight0940/MYBlog/blob/main/source/_posts/基于netlify的个人博客搭建方法.assets/2.png))
+![2](.assets/2.png)
 
 然后我们可以得到我们的网站了，接下来我们需要解决域名和CDN问题
 
@@ -67,11 +68,11 @@ tags: web
 
 这是我设置好的：
 
-![3](基于netlify的个人博客搭建方法.assets/3.png)
+![3](.assets/3.png)
 
 ​            经过一段时间的等待过后，回到Netlify网站，找到Domain management，选择add domain，如果一切正常，在第二步add DNS record会自动配置，不需要操作，如果没有说明你的DNS可能还没有同步，那就再等待一会时间再进行该操作。
 
-​		![4](基于netlify的个人博客搭建方法.assets/4.png)
+​		![4](.assets/4.png)
 
 ​		到这里我们的网站其实已经完成了上线，只不过无法在国内访问。因此我们就需要CDN加速，使用[Cloudflare](https://www.cloudflare.com/zh-cn/)就是一种免费而且方便的方案。
 
