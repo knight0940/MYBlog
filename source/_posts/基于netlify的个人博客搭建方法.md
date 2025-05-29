@@ -78,7 +78,7 @@ tags: web
 
 ​            进入[Cloudflare](https://www.cloudflare.com/zh-cn/)，注册，登入，输入你购买的域名，输入你购买的域名，输入你购买的域名，输入你刚刚购买的域名，这很重要别输成你刚刚做的网站的网址了，选择免费套餐，接着你就可以根据指引完成这项工作了。设置完成以后再回到Netlify的HTTPS界面，去取得网站的证书，一般来说Netlify会在设置完成以后自动取得证书，不过这也需要一定时间的等待。
 
-参考资料：[个人博客搭建教程 | 爱扑bug的熊](https://blog.cuijiacai.com/blog-building/)
+参考资料：[个人博客搭建教程 | 爱扑bug的熊](https://blog.chhuijiacai.com/blog-building/)
 
 [卷二兔的个人空间-卷二兔个人主页-哔哩哔哩视频](https://space.bilibili.com/13282871)
 
