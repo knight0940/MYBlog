@@ -43,7 +43,7 @@ Starlette：https://www.starlette.io/
 
 说会Fastapi本身，它提供了可交互的自动生成文档，以下是来自官网的截图。可以看到下图有许多可交互界面用于测试你的api。
 
-![2](./Fastapi学习记录/index-03-swagger-02-1748499198799-3.png)
+![https://fastapi.tiangolo.com/img/index/index-03-swagger-02.png](./Fastapi学习记录.assets/index-03-swagger-02-1748499860516-15.png)
 
 ## 最重要的特性——依赖注入：
 
